@@ -15,6 +15,8 @@ game texts in Italian. It ships the Italian translations of the world database:
 
 - AzerothCore with support for locales added by modules
   ([azerothcore-wotlk#28081](https://github.com/azerothcore/azerothcore-wotlk/pull/28081)).
+- AzerothCore with the `SessionScript::OnWardenCheckExpectedResult` hook
+  ([Helias/azerothcore-wotlk@warden-check-expected-result-hook](https://github.com/Helias/azerothcore-wotlk/tree/warden-check-expected-result-hook)).
 - A WoW 3.3.5a client translated to Italian (`itIT`).
 
 ## Installation
@@ -23,6 +25,16 @@ game texts in Italian. It ships the Italian translations of the world database:
 2. Re-run CMake and rebuild the server.
 3. Start the worldserver: the database updater applies the SQL files in `data/sql/db-world/`
    automatically.
+
+## Warden
+
+The Italian client patches the FrameXML signature check in `Wow.exe`, because translated FrameXML
+cannot carry Blizzard's signature. The stock Warden memory check for that address (`warden_checks`
+id 47, five bytes at `0x52ABDC`) therefore fails for every Italian client.
+
+The module tells Warden to expect the patched bytes for `itIT` sessions only. Clients with any other
+locale keep the stock check, and an Italian client whose bytes at that address differ from the known
+patch is still kicked.
 
 ## Credits
 
