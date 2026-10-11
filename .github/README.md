@@ -28,8 +28,8 @@ game texts in Italian. It ships the Italian translations of the world database:
 
 ## Warden
 
-The Italian client patches the FrameXML signature check in `Wow.exe`, because translated FrameXML
-cannot carry Blizzard's signature. The stock Warden memory check for that address (`warden_checks`
+The Italian client patches the FrameXML signature check in the client binary, because translated FrameXML
+cannot carry retail's signature. The stock Warden memory check for that address (`warden_checks`
 id 47, five bytes at `0x52ABDC`) therefore fails for every Italian client.
 
 The module tells Warden to expect the patched bytes for `itIT` sessions only. Clients with any other

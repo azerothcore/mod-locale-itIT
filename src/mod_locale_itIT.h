@@ -7,8 +7,6 @@
 
 #include "Common.h"
 
-// 11 is the itIT id Blizzard's clients use. Slots 9..15 are reserved for
-// locales added by modules.
 constexpr LocaleConstant LOCALE_itIT = LocaleConstant(11);
 
 void AddItalianClientWardenChecks();

@@ -11,8 +11,9 @@
 
 namespace
 {
-// The Italian client ships translated FrameXML, which can't carry Blizzard's
-// signature, so its Wow.exe patches the signature check at this address from
+
+// The Italian client ships translated FrameXML, which can't carry the retail's
+// signature, so its client binary patches the signature check at this address from
 // "cmp eax,3 / ja" to "mov eax,3". Stock bytes: 77 34 FF 24 85 (warden_checks
 // id 47, "FrameXML Signature Check").
 constexpr uint32 FRAMEXML_SIGNATURE_CHECK_ADDRESS = 0x52ABDC;
