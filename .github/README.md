@@ -17,7 +17,7 @@ game texts in Italian. It ships the Italian translations of the world database:
   ([azerothcore-wotlk#28081](https://github.com/azerothcore/azerothcore-wotlk/pull/28081)).
 - AzerothCore with the `SessionScript::OnWardenCheckExpectedResult` hook
   ([Helias/azerothcore-wotlk@warden-check-expected-result-hook](https://github.com/Helias/azerothcore-wotlk/tree/warden-check-expected-result-hook)).
-- A WoW 3.3.5a client translated to Italian (`itIT`).
+- The WoW 3.3.5a italian client created by [Horrid Gremlin](https://github.com/horrid-gremlin/WoW-3.3.5a-Italian-Client).
 
 ## Installation
 
