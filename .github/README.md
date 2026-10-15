@@ -13,10 +13,7 @@ game texts in Italian. It ships the Italian translations of the world database:
 
 ## Requirements
 
-- AzerothCore with support for locales added by modules
-  ([azerothcore-wotlk#28081](https://github.com/azerothcore/azerothcore-wotlk/pull/28081)).
-- AzerothCore with the `SessionScript::OnWardenCheckExpectedResult` hook
-  ([azerothcore-wotlk#28089](https://github.com/azerothcore/azerothcore-wotlk/pull/28089)).
+- AzerothCore updated to commit `0ef64e8` or above.
 - The WoW 3.3.5a italian client created by [Horrid Gremlin](https://github.com/horrid-gremlin/WoW-3.3.5a-Italian-Client).
 
 ## Installation
