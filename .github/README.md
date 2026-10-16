@@ -23,16 +23,6 @@ game texts in Italian. It ships the Italian translations of the world database:
 3. Start the worldserver: the database updater applies the SQL files in `data/sql/db-world/`
    automatically.
 
-## Warden
-
-The Italian client patches the FrameXML signature check in the client binary, because translated FrameXML
-cannot carry retail's signature. The stock Warden memory check for that address (`warden_checks`
-id 47, five bytes at `0x52ABDC`) therefore fails for every Italian client.
-
-The module tells Warden to expect the patched bytes for `itIT` sessions only. Clients with any other
-locale keep the stock check, and an Italian client whose bytes at that address differ from the known
-patch is still kicked.
-
 ## How to Contribute?
 
 If you want to help this module grow, before opening any PR, I recommend that you follow the [Translation Rules](https://mega.nz/file/chF21aoB#C46edG3vYMg2z3O9axbSWbQSSjRJ7jUwscL-P7dyrpA).\
