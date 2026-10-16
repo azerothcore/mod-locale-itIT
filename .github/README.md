@@ -14,7 +14,7 @@ game texts in Italian. It ships the Italian translations of the world database:
 ## Requirements
 
 - AzerothCore updated to commit `0ef64e8` or above.
-- The WoW 3.3.5a italian client created by Horrid Gremlin.
+- A WoW 3.3.5a italian client.
 
 ## Installation
 
