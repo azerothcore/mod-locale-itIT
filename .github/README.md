@@ -28,7 +28,7 @@ game texts in Italian. It ships the Italian translations of the world database:
 If you want to help this module grow, before opening any PR, I recommend that you follow the [Translation Rules](https://mega.nz/file/chF21aoB#C46edG3vYMg2z3O9axbSWbQSSjRJ7jUwscL-P7dyrpA).\
 I also created a [Glossary](https://mega.nz/file/EgEhAAiD#lcWrFFx2e9jbrCPFjGbdSCs-Xfr1_L64ih2N7U5mE9Q) that contains the vast majority of the localized terms used for this module and the client created by Horrid Gremlin.
 
-## Current State
+## Current State (80%)
 | Table                      | Origin  |Translated| Missing  |    % |
 |----------------------------|--------:|---------:|---------:|-----:|
 | broadcast_text             |  72.948 |   72.328 |      620 |  99% |
