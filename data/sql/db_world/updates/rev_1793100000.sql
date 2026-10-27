@@ -1,6 +1,5 @@
--- Move the itIT acore_string texts from the old `locale_itIT` column to `acore_string_locale`.
--- Installations that never had the column (new installs) skip every step.
 
+-- Move the itIT acore_string texts from the old `locale_itIT` column to `acore_string_locale`. Installations that never had the column (new installs) skip every step.
 SET @has_column = (SELECT COUNT(*) FROM `information_schema`.`COLUMNS` WHERE `TABLE_SCHEMA` = DATABASE() AND `TABLE_NAME` = 'acore_string' AND `COLUMN_NAME` = 'locale_itIT');
 
 SET @copy = IF(@has_column > 0,
