@@ -32,24 +32,24 @@ I also created a [Glossary](https://mega.nz/file/EgEhAAiD#lcWrFFx2e9jbrCPFjGbdSC
 | Table                      | Origin  |Translated| Missing  |    % |
 |----------------------------|--------:|---------:|---------:|-----:|
 | broadcast_text             |  72.948 |   72.328 |      620 |  99% |
-| creature_template (Name)   |  29.942 |   26.950 |    2.992 |  90% |
+| creature_template (Name)   |  29.942 |   26.951 |    2.991 |  90% |
 | creature_template (Title)  |   5.852 |    5.559 |      293 |  94% |
-| creature_text              |  18.830 |   17.909 |      921 |  95% |
+| creature_text              |  18.838 |   17.907 |      931 |  95% |
 | gameobject_template        |  20.658 |    9.009 |   11.649 |  43% |
 | gossip_menu_option         |   4.687 |    4.007 |      680 |  85% |
 | item_set_names             |   2.481 |    2.267 |      214 |  91% |
 | item_template              |  46.096 |   36.418 |    9.678 |  79% |
 | npc_text                   |   8.360 |    7.734 |      626 |  92% |
-| page_text                  |   1.951 |      337 |    1.614 |  17% |
+| page_text                  |   1.951 |      609 |    1.342 |  31% |
 | points_of_interest         |     463 |      457 |        6 |  98% |
 | quest_greeting             |     199 |        8 |      191 |   4% |
-| quest_template (Title)     |   9.456 |    5.375 |    4.081 |  56% |
-| quest_template (Details)   |   7.989 |    4.248 |    3.741 |  53% |
-| quest_template (Objectives)|   7.980 |    4.200 |    3.780 |  52% |
-| quest_offer_reward         |   8.651 |    2.324 |    6.327 |  26% |
-| quest_request_items        |   6.243 |    1.105 |    5.138 |  17% |
-| trainer                    |     125 |      125 |        0 |  100% |
-| acore_string               |   1.344 |      284 |    1.060 |  21% |
+| quest_template (Title)     |   9.456 |    5.377 |    4.079 |  56% |
+| quest_template (Details)   |   7.989 |    4.256 |    3.733 |  53% |
+| quest_template (Objectives)|   7.980 |    4.208 |    3.772 |  52% |
+| quest_offer_reward         |   8.651 |    2.476 |    6.175 |  28% |
+| quest_request_items        |   6.243 |    1.133 |    5.110 |  18% |
+| trainer                    |     125 |      125 |        0 | 100% |
+| acore_string               |   1.347 |      284 |    1.063 |  21% |
 
 ## Credits
 
