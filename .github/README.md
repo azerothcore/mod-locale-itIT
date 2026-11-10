@@ -34,13 +34,13 @@ This choice was made because, even if some translations come from official sourc
 When a row has VerifiedBuild set to 1, it means that the entire translation comes from an official source. \
 In some cases, there are rows that come from an official source but have VerifiedBuild set to 0. This usually happens when an official localization has been edited by the translator to match the English AC version.
 
-## Current State (77%)
+## Current State (78%)
 | Table                          | Origin  |Translated| Missing  |    % |
 |--------------------------------|--------:|---------:|---------:|-----:|
 | broadcast_text                 |  72.948 |   72.328 |      620 |  99% |
 | creature_template (Name)       |  29.942 |   26.951 |    2.991 |  90% |
 | creature_template (Title)      |   5.852 |    5.559 |      293 |  94% |
-| creature_text                  |  18.838 |   17.905 |      933 |  95% |
+| creature_text                  |  18.838 |   17.909 |      929 |  95% |
 | gameobject_template            |  20.658 |    9.009 |   11.649 |  43% |
 | gossip_menu_option             |   4.687 |    4.007 |      680 |  85% |
 | item_set_names                 |   2.481 |    2.267 |      214 |  91% |
@@ -53,7 +53,7 @@ In some cases, there are rows that come from an official source but have Verifie
 | quest_template (Details)       |   7.989 |    4.374 |    3.615 |  54% |
 | quest_template (Objectives)    |   7.980 |    4.338 |    3.642 |  54% |
 | quest_template (EndText)       |     485 |      296 |      189 |  61% |
-| quest_template (CompletedText) |   6.140 |      257 |    5.883 |   4% |
+| quest_template (CompletedText) |   6.140 |    3.661 |    2.479 |  59% |
 | quest_template (ObjectiveText1)|     934 |      726 |      208 |  77% |
 | quest_template (ObjectiveText2)|     265 |      205 |       60 |  77% |
 | quest_template (ObjectiveText3)|     164 |      116 |       48 |  70% |
