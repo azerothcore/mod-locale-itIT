@@ -40,28 +40,28 @@ In some cases, there are rows that come from an official source but have Verifie
 | broadcast_text                 |  72.948 |   72.328 |      620 |  99% |
 | creature_template (Name)       |  29.942 |   26.951 |    2.991 |  90% |
 | creature_template (Title)      |   5.852 |    5.559 |      293 |  94% |
-| creature_text                  |  18.838 |   17.909 |      929 |  95% |
+| creature_text                  |  18.841 |   17.909 |      932 |  95% |
 | gameobject_template            |  20.658 |    9.009 |   11.649 |  43% |
 | gossip_menu_option             |   4.687 |    4.007 |      680 |  85% |
 | item_set_names                 |   2.481 |    2.267 |      214 |  91% |
-| item_template                  |  46.096 |   36.418 |    9.678 |  79% |
+| item_template                  |  46.096 |   36.423 |    9.673 |  79% |
 | npc_text                       |   8.360 |    7.734 |      626 |  92% |
 | page_text                      |   1.951 |      609 |    1.342 |  31% |
 | points_of_interest             |     463 |      457 |        6 |  98% |
 | quest_greeting                 |     199 |        8 |      191 |   4% |
-| quest_template (Title)         |   9.456 |    5.389 |    4.067 |  56% |
-| quest_template (Details)       |   7.989 |    4.374 |    3.615 |  54% |
-| quest_template (Objectives)    |   7.980 |    4.338 |    3.642 |  54% |
+| quest_template (Title)         |   9.456 |    5.398 |    4.058 |  57% |
+| quest_template (Details)       |   7.989 |    4.384 |    3.605 |  54% |
+| quest_template (Objectives)    |   7.980 |    4.429 |    3.551 |  55% |
 | quest_template (EndText)       |     485 |      296 |      189 |  61% |
 | quest_template (CompletedText) |   6.140 |    3.661 |    2.479 |  59% |
 | quest_template (ObjectiveText1)|     934 |      726 |      208 |  77% |
 | quest_template (ObjectiveText2)|     265 |      205 |       60 |  77% |
 | quest_template (ObjectiveText3)|     164 |      116 |       48 |  70% |
 | quest_template (ObjectiveText4)|      67 |       42 |       25 |  62% |
-| quest_offer_reward             |   8.651 |    2.516 |    6.135 |  29% |
-| quest_request_items            |   6.243 |    1.147 |    5.096 |  18% |
+| quest_offer_reward             |   8.651 |    2.535 |    6.116 |  29% |
+| quest_request_items            |   6.243 |    1.154 |    5.089 |  18% |
 | trainer                        |     125 |      125 |        0 | 100% |
-| acore_string                   |   1.347 |      284 |    1.063 |  21% |
+| acore_string                   |   1.350 |      284 |    1.066 |  21% |
 
 ## Credits
 
